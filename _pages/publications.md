@@ -13,7 +13,7 @@ author_profile: true
 
 <!---->
 
-Center-aware Alignment for Domain Adaptive Anchor-free Object Detector<br>**Cheng-Chun Hsu**, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang.<br>Under reviewed. CVPR, 2020.
+<u>Center-aware Alignment for Domain Adaptive Anchor-free Object Detector</u><br>**Cheng-Chun Hsu**, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang.<br>Under reviewed. CVPR, 2020.
 
 <!---->
 
@@ -21,7 +21,7 @@ Center-aware Alignment for Domain Adaptive Anchor-free Object Detector<br>**Chen
 
 <!---->
 
-Center-context-gap Refinement for Weakly Supervised Instance Segmentation<br>**Cheng-Chun Hsu\***, Kuang-Jui Hsu\*, Chiachen Ho, Yen-Yu Lin, and Yung-Yu Chuang. <br>Technical report.
+<u>Center-context-gap Refinement for Weakly Supervised Instance Segmentation</u><br>**Cheng-Chun Hsu\***, Kuang-Jui Hsu\*, Chiachen Ho, Yen-Yu Lin, and Yung-Yu Chuang. <br>Technical report.
 
 <!---->
 
