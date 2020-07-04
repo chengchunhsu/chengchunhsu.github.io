@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Cheng-Chun (Alex) Hsu"
 title_separator          : "-"
 name                     : &name "Cheng-Chun (Alex) Hsu"
-description              : &description "Research Assistant at Academia Sinica"
+description              : &description "Research Assistant at National Chiao Tung University"
 url                      : https://chengchunhsu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chengchunhsu/chengchunhsu.github.io"
@@ -86,7 +86,7 @@ author:
   location         : "Taipei, Taiwan"
   employer         :
   pubmed           : # ""
-  googlescholar    : # ""
+  googlescholar    : "https://scholar.google.com/citations?user=9rh0w2QAAAAJ"
   email            : "hsu06118@citi.sinica.edu.tw"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # ""
+  linkedin         : "https://www.linkedin.com/in/cheng-chun-hsu-65aa9b15b/"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
