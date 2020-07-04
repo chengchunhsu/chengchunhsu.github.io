@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Cheng-Chun (Alex) Hsu"
 title_separator          : "-"
 name                     : &name "Cheng-Chun (Alex) Hsu"
-description              : &description "Research Assistant at National Chiao Tung University"
+description              : &description "Research Assistant at Academia Sinica"
 url                      : https://chengchunhsu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chengchunhsu/chengchunhsu.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Cheng-Chun (Alex) Hsu"
   avatar           : "profile.jpg"
-  bio              : "Research Assistant at National Chiao Tung University"
+  bio              : "Research Assistant at Academia Sinica"
   location         : "Taipei, Taiwan"
   employer         :
   pubmed           : # ""
