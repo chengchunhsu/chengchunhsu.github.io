@@ -85,7 +85,7 @@ author_profile: true
   </td>
 
   <td style="border-collapse: collapse; border: none;">
-    <h1><font>What dress fits me best? Fashion Recommendation on the Clothing Style for Personal Body Shape</font></h1>
+    <h1><font>What Dress Fits Me Best? Fashion Recommendation on the Clothing Style for Personal Body Shape</font></h1>
     Shintami Chusnul Hidayati, <b>Cheng-Chun Hsu</b>, Yu-Ting Chang, Kai-Lung Hua, Jianlong Fu, and Wen-Huang Cheng.<br>
     <i>ACM International Conference on Multimedia (MM), 2018.</i><br>
     <span style="color:orange">(Oral Presentation)</span><br>
