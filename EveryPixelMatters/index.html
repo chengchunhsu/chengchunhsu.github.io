@@ -13,7 +13,16 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
 
   <!--<meta property="og:image" content="http://gph.is/2oZQz8h" />-->
+
+  <!-- Latex support -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </head>
+
 <body>
   
   <div class="navbar-fixed">
@@ -106,6 +115,17 @@
       <div class="row center">
         <div class="col l12 m12 s12">
           <img class="responsive-img" src="img/architecture.png" width="70%">
+          <figcaption>
+            <p align="justify">
+            <b>Fig. Proposed framework for domain adaptive object detection.</b> 
+            Given the source and target images, we feed them to a shared feature extractor $G$ to obtain their features $F$. 
+            Then, the global alignment on these features is performed via a global discriminator $D_{GA}$ and a domain prediction loss $L_{GA}$. 
+            Next, we pass the feature through the fully-convolutional module $P$ to produce the classication and centerness maps. 
+            These maps and the feature $F$ are utilized to generate the center-aware features.
+            Finally, we use a center-aware discriminator $D_{CA}$ and another domain prediction loss $L_{CA}$ to perform the proposed center-aware feature alignment. 
+            Note that the bounding box prediction loss $L_{det}$ is only operated on source images using their corresponding ground-truth bounding boxes.
+            </p>
+          </figcaption>
           </a>
         </div>
       </div>    
@@ -175,13 +195,13 @@
           Chen et al. <a 
             href="https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.html" 
             target="blank">Domain Adaptive Faster R-CNN for Object Detection in the Wild.</a> 
-            In CVPR, 2018.
+          In CVPR, 2018.
         </li>
         
         <li>&bull;
           Saito et al. <a
-          href="https://openaccess.thecvf.com/content_CVPR_2019/html/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.html"
-          target="blank">Strong-weak distribution alignment for adaptive object detection.</a>
+            href="https://openaccess.thecvf.com/content_CVPR_2019/html/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.html"
+            target="blank">Strong-weak distribution alignment for adaptive object detection.</a>
           In CVPR, 2019.
         </li>
         
