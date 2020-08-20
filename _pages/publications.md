@@ -30,15 +30,13 @@ author_profile: true
     <i>European Conference on Computer Vision (ECCV), 2020.</i><br>
 
     <img src="https://raw.githubusercontent.com/chengchunhsu/chengchunhsu.github.io/master/images/web_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://chengchunhsu.github.io/EveryPixelMatters/">code</a></span>
-    <span>project</span>
+    <span><a href="https://chengchunhsu.github.io/EveryPixelMatters/">project</a></span>
+    <br>
     <img src="https://raw.githubusercontent.com/chengchunhsu/chengchunhsu.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/pdf/2008.08574">paper</a></span>
-    <span>paper</span>
     <br>
     <img src="https://raw.githubusercontent.com/chengchunhsu/chengchunhsu.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/chengchunhsu/EveryPixelMatters">code</a></span>
-    <span>code</span>
   </td>
 </tr>
 
