@@ -41,7 +41,7 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
 
   <div id="jiang2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://ut-austin-rpl.github.io/Ditto/">Ditto: Building Digital Twins of Articulated Objects from Interaction</a></div>
-      <div class="author">Zhenyu Jiang, <strong>Cheng-Chun Hsu</strong>, Yuke Zhu</div>
+      <div class="author">Zhenyu Jiang, <u><strong>Cheng-Chun Hsu</strong></u>, Yuke Zhu</div>
       <div class="periodical"><em>Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2022.</em>
       </div>
       <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
@@ -68,7 +68,7 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
   <!-- </td> -->
   <div id="hsu2020every" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://chengchunhsu.github.io/EveryPixelMatters/">Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector</a></div>
-      <div class="author"><strong>Cheng-Chun Hsu</strong>, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang</div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang</div>
       <div class="periodical"><em>European Conference on Computer Vision <strong>(ECCV)</strong>, 2020.</em>
       </div>
     <div class="links">
@@ -89,7 +89,7 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
   </div>
   <div id="hsu2019weakly" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://papers.nips.cc/paper/2019/file/e6e713296627dff6475085cc6a224464-Paper.pdf">Weakly Supervised Instance Segmentation using the Bounding Box Tightness Prior</a></div>
-      <div class="author"><strong>Cheng-Chun Hsu*</strong>, Kuang-Jui Hsu*, Chung-Chi Tsai, Yen-Yu Lin, and Yung-Yu Chuang</div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>*, Kuang-Jui Hsu*, Chung-Chi Tsai, Yen-Yu Lin, and Yung-Yu Chuang</div>
       <div class="periodical"><em>Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2019.</em>
       </div>
     <div class="links">
@@ -109,7 +109,7 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
   </div>
   <div id="hidayati2018fashion" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="./assets/data/pub_mm18_fashion.pdf">What Dress Fits Me Best? Fashion Recommendation on the Clothing Style for Personal Body Shape</a></div>
-      <div class="author">Shintami Chusnul Hidayati, <strong>Cheng-Chun Hsu</strong>, Yu-Ting Chang, Kai-Lung Hua, Jianlong Fu, and Wen-Huang Cheng</div>
+      <div class="author">Shintami Chusnul Hidayati, <u><strong>Cheng-Chun Hsu</strong></u>, Yu-Ting Chang, Kai-Lung Hua, Jianlong Fu, and Wen-Huang Cheng</div>
       <div class="periodical"><em>ACM International Conference on Multimedia <strong>(MM)</strong>, 2018.</em>
       </div>
       <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
@@ -137,7 +137,7 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
   </div>
   <div id="hsu2019center" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="./assets/data/pub_techreport19_ccgr.pdf">Center-context-gap Refinement for Weakly Supervised Instance Segmentation</a></div>
-      <div class="author"><strong>Cheng-Chun Hsu*</strong>, Kuang-Jui Hsu*, Chiachen Ho, Yen-Yu Lin, and Yung-Yu Chuang</div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>*, Kuang-Jui Hsu*, Chiachen Ho, Yen-Yu Lin, and Yung-Yu Chuang</div>
       <div class="periodical"><em>Technical report, 2019.</em>
       </div>
     <div class="links">
