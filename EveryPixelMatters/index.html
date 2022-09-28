@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="author" content="jasonlai">
+  <title>Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <!--<meta property="og:image" content="http://gph.is/2oZQz8h" />-->
+
+  <!-- Latex support -->
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+</head>
+
+<body>
+  
+  <div class="navbar-fixed">
+
+    <nav class="grey darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a class="nav-item waves-effect waves-light" href="#home">Home</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#abstract">Abstract</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#paper">Paper</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#citation">Citation</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#download">Results</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#reference">References</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container scrollspy" id="home">
+
+      <h4 class="header center black-text">Every Pixel Matters: Center-aware Feature Alignment for <br>Domain Adaptive Object Detector</h4>
+
+      <br>
+
+      <div class="row center">
+        <h5 class="header col m3 s12">
+          <div class="author"><a href = "https://chengchunhsu.github.io/" target="blank">Cheng-Chun Hsu</a></div>
+          <div class="school"><a href= "https://www.sinica.edu.tw/en" target="blank">Academia Sinica</a></div>
+        </h5>
+
+        <h5 class="header col m3 s12">
+          <div class="author"><a href="https://sites.google.com/site/yihsuantsai/" target="blank">Yi-Hsuan Tsai</a></div>
+          <div class="school"><a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home" target="blank">NEC Labs America</a></div>
+        </h5>
+
+        <h5 class="header col m3 s12">
+          <div class="author"><a href="https://sites.google.com/site/yylinweb/" target="blank">Yen-Yu Lin</a></div>
+          <div class="school"><a href="https://www.sinica.edu.tw/en" target="blank">Academia Sinica</a></div>
+          <div class="school"><a href="https://www.nctu.edu.tw/en" target="blank">National Chiao Tung University</a></div>
+        </h5>
+        
+        <h5 class="header col m3 s12">
+          <div class="author"><a href="https://faculty.ucmerced.edu/mhyang/" target="blank">Ming-Hsuan Yang</a></div>
+          <div class="school"><a href="https://www.ucmerced.edu/" target="blank">UC Merced</a></div>
+          <div class="school"><a href="https://research.google/" target="blank">Google Research</a></div>
+        </h5>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row center">
+        <div class="col l12 m12 s12">
+          <img class="responsive-img" src="img/teaser.png" width="70%">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row section scrollspy" id="abstract">
+      <div class="title">Abstract</div>
+      <br>
+      <p align="justify">
+        A domain adaptive object detector aims to adapt itself to unseen domains that may contain variations of object
+        appearance, viewpoints or backgrounds.
+        Most existing methods adopt feature alignment either on the image level or instance level.
+        However, image-level alignment on global features may tangle foreground/background pixels at the same time, while
+        instance-level alignment using proposals may suffer from the background noise.
+        Different from existing solutions, we propose a domain adaptation framework that accounts for each pixel via predicting
+        pixel-wise objectness and centerness.
+        Specifically, the proposed method carries out center-aware alignment by paying more attention to foreground pixels,
+        hence achieving better adaptation across domains.
+        We demonstrate our method on numerous adaptation settings with extensive experimental results and show favorable
+        performance against existing state-of-the-art algorithms.
+      </p>
+    </div>
+    
+    <div class="section">    
+      <!--   Icon Section   -->
+      <div class="row center">
+        <div class="col l12 m12 s12">
+          <img class="responsive-img" src="img/architecture.png" width="70%">
+          <figcaption>
+            <p align="justify">
+            <b>Fig. Proposed framework for domain adaptive object detection.</b> 
+            Given the source and target images, we feed them to a shared feature extractor $G$ to obtain their features $F$. 
+            Then, the global alignment on these features is performed via a global discriminator $D_{GA}$ and a domain prediction loss $L_{GA}$. 
+            Next, we pass the feature through the fully-convolutional module $P$ to produce the classication and centerness maps. 
+            These maps and the feature $F$ are utilized to generate the center-aware features.
+            Finally, we use a center-aware discriminator $D_{CA}$ and another domain prediction loss $L_{CA}$ to perform the proposed center-aware feature alignment. 
+            Note that the bounding box prediction loss $L_{det}$ is only operated on source images using their corresponding ground-truth bounding boxes.
+            </p>
+          </figcaption>
+          </a>
+        </div>
+      </div>    
+    </div>
+
+    <div class="row section scrollspy" id="paper">
+      <div class="title">Papers</div>
+      <br>
+      <div class="row">
+      
+        <div class="col m2 s6 center">
+          <a href="https://arxiv.org/pdf/2008.08574" target="">
+            <img src="img/icon_pdf.png" width="60%">
+          </a>
+          <br>
+          <a href="" target="">ECCV 2020<br></a>
+        </div>
+
+    </div>
+
+    <div class="row section scrollspy" id="citation">
+      <div class="title">Citation</div>
+      <p>Cheng-Chun Hsu, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang, "Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector", in European Conference on Computer Vision (ECCV), 2020.</p>
+     
+      <br>
+
+      <div class="title">BibTex</div>
+      <pre>
+@inproceedings{hsu2020epm,
+  title     = {Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector},
+  author    = {Cheng-Chun Hsu, Yi-Hsuan Tsai, Yen-Yu Lin, Ming-Hsuan Yang},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2020}
+}
+      </pre>
+
+    </div>
+
+    <div class="section row scrollspy" id="download">
+      <div class="title">Code and Results</div>
+      <br>
+      <div class="row">
+
+        <div class="col m6 s12 center">
+          <a href="https://github.com/chengchunhsu/EveryPixelMatters" target="">
+            <img src="img/github.png">
+          </a>
+          <br>
+          <a href="https://github.com/chengchunhsu/EveryPixelMatters" target="">Code</a>
+        </div>
+
+        <div class="col m6 s12 center">
+          <a href="https://github.com/chengchunhsu/EveryPixelMatters" target="">
+            <img src="img/icon_zip.png">
+          </a>
+          <br>
+          <a href="https://github.com/chengchunhsu/EveryPixelMatters" >Results</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row section scrollspy" id="reference">
+      <div class="title">References</div>
+      <ul>
+        <li>&bull; 
+          Chen et al. <a 
+            href="https://openaccess.thecvf.com/content_cvpr_2018/html/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.html" 
+            target="blank">Domain Adaptive Faster R-CNN for Object Detection in the Wild.</a> 
+          In CVPR, 2018.
+        </li>
+        
+        <li>&bull;
+          Saito et al. <a
+            href="https://openaccess.thecvf.com/content_CVPR_2019/html/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.html"
+            target="blank">Strong-weak distribution alignment for adaptive object detection.</a>
+          In CVPR, 2019.
+        </li>
+        
+        <li>&bull;
+          Zhu et al. <a
+            href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Adapting_Object_Detectors_via_Selective_Cross-Domain_Alignment_CVPR_2019_paper.pdf"
+            target="blank">Adapting object detectors via selective cross-domain alignment.</a>
+          In CVPR, 2019.
+        </li>
+        
+        <li>&bull;
+          He et al. <a
+            href="https://openaccess.thecvf.com/content_ICCV_2019/html/He_Multi-Adversarial_Faster-RCNN_for_Unrestricted_Object_Detection_ICCV_2019_paper.html"
+            target="blank">Multi-adversarial faster-rcnn for unrestricted object detection.</a>
+          In ICCV, 2019.
+        </li>
+     
+        <li>&bull;
+          Kim et al. <a
+            href="https://openaccess.thecvf.com/content_CVPR_2019/html/Kim_Diversify_and_Match_A_Domain_Adaptive_Representation_Learning_Paradigm_for_CVPR_2019_paper.html"
+            target="blank">Diversify and match: A domain adaptive representation learning paradigm for object detection.</a>
+          In CVPR, 2019.
+        </li>
+
+        <li>&bull;
+          Cai et al. <a
+            href="https://openaccess.thecvf.com/content_CVPR_2019/html/Cai_Exploring_Object_Relation_in_Mean_Teacher_for_Cross-Domain_Detection_CVPR_2019_paper.html"
+            target="blank">Exploring object relation in mean teacher for cross-domain detection.</a>
+          In CVPR, 2019.
+        </li>
+        
+        <li>&bull;
+          Hsu et al. <a
+            href="https://arxiv.org/abs/1910.11319"
+            target="blank">Progressive domain adaptation for object detection.</a>
+          In WACV, 2020.
+        </li>
+
+        <li>&bull;
+          Kim et al. <a
+            href="https://openaccess.thecvf.com/content_ICCV_2019/html/Kim_Self-Training_and_Adversarial_Background_Regularization_for_Unsupervised_Domain_Adaptive_One-Stage_ICCV_2019_paper.html"
+            target="blank">Self-training and adversarial background regularization for unsupervised domain adaptive one-stage object detection.</a>
+          In ICCV, 2019.
+        </li>
+        
+        <li>&bull;
+          Ren et al. <a
+            href="https://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks"
+            target="blank">Faster r-cnn: Towards real-time object detection with region proposal networks.</a>
+          In NeurIPS, 2015.
+        </li>
+        
+        <li>&bull;
+          Tian et al. <a
+            href="https://openaccess.thecvf.com/content_ICCV_2019/html/Tian_FCOS_Fully_Convolutional_One-Stage_Object_Detection_ICCV_2019_paper.html"
+            target="blank">Fcos: Fully convolutional one-stage object detection.</a>
+          In ICCV, 2019.
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
+
