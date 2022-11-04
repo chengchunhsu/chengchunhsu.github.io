@@ -3,12 +3,12 @@ layout: homepage
 ---
 
 ## About Me
-I am a second-year MS student in Computer Science at UT Austin, advised by Prof. <a href="https://rpl.cs.utexas.edu/publications/">Yuke Zhu</a>.
+I am a second-year MS student in Computer Science at the <a href="https://www.utexas.edu/">University of Texas at Austin</a>, advised by Professor <a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a>.
 <br>My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>.
 
 <!-- Previously, I was a research assistant at Academia Sinica, advised by Prof. <a href="https://sites.google.com/site/yylinweb/publications/">Yen-Yu Lin</a>. I was also working intensively with Prof. <a href="http://vllab.ucmerced.edu/publication/">Ming-Hsuan Yang</a> and Dr. <a href="https://sites.google.com/site/yihsuantsai/research/">Yi-Hsuan Tsai</a>. -->
 
-<!-- <strong style="color:#e74d3c; font-weight:600">I am seeking for a Ph.D. position starting Fall 2023.</strong> -->
+<strong style="color:#e74d3c; font-weight:600">I am seeking for a Ph.D. position starting Fall 2023.</strong>
 
 <!-- ## News -->
 
@@ -16,6 +16,44 @@ I am a second-year MS student in Computer Science at UT Austin, advised by Prof.
 
 <div class="publications">
 <ol class="bibliography">
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/data/teaser_icra23_dittohouse.jpg" class="teaser img-fluid z-depth-1">
+  </div>
+
+  <!-- <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <video width=175px muted autoplay loop>
+      <source src="./assets/data/teaser_cvpr22_ditto.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div> -->
+
+  <!-- <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <div class="embed-responsive">
+      <video width=175px outline:none muted autoplay loop>
+        <source src="./assets/data/teaser_cvpr22_ditto.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div> -->
+
+  <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://ut-austin-rpl.github.io/HouseDitto/">Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</a></div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Zhenyu Jiang, Yuke Zhu</div>
+      <div class="periodical"><em>In submission to IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2023.</em>
+      </div>
+    <!-- <div class="links">
+      <a href="https://ut-austin-rpl.github.io/Ditto/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://arxiv.org/abs/2202.08227" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+      <a href="https://github.com/UT-Austin-RPL/Ditto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div> -->
+  </div>
+</div>
+</li>
+
+<br>
 
 <li>
 <div class="pub-row">
