@@ -42,7 +42,7 @@ I am a second-year MS student in Computer Science at the <a href="https://www.ut
   <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://ut-austin-rpl.github.io/HouseDitto/">Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</a></div>
       <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Zhenyu Jiang, Yuke Zhu</div>
-      <div class="periodical"><em>In submission to IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2023.</em>
+      <div class="periodical"><em>IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2023.</em>
       </div>
     <!-- <div class="links">
       <a href="https://ut-austin-rpl.github.io/Ditto/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
