@@ -3,8 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a second-year MS student in Computer Science at the <a href="https://www.utexas.edu/">University of Texas at Austin</a>, advised by Professor <a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a>.
-<br>My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>.
+I am a second-year MS student in Computer Science at the <a href="https://www.utexas.edu/">University of Texas at Austin</a>, advised by Professor <a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>.
 
 <!-- Previously, I was a research assistant at Academia Sinica, advised by Prof. <a href="https://sites.google.com/site/yylinweb/publications/">Yen-Yu Lin</a>. I was also working intensively with Prof. <a href="http://vllab.ucmerced.edu/publication/">Ming-Hsuan Yang</a> and Dr. <a href="https://sites.google.com/site/yihsuantsai/research/">Yi-Hsuan Tsai</a>. -->
 
