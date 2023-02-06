@@ -44,11 +44,11 @@ I am a second-year MS student in Computer Science at the <a href="https://www.ut
       <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Zhenyu Jiang, Yuke Zhu</div>
       <div class="periodical"><em>International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2023.</em>
       </div>
-    <!-- <div class="links">
-      <a href="https://ut-austin-rpl.github.io/Ditto/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="https://arxiv.org/abs/2202.08227" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-      <a href="https://github.com/UT-Austin-RPL/Ditto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div> -->
+    <div class="links">
+      <a href="https://ut-austin-rpl.github.io/HouseDitto/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://arxiv.org/abs/2302.01295" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+      <!-- <a href="https://github.com/UT-Austin-RPL/Ditto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+    </div>
   </div>
 </div>
 </li>
