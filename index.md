@@ -7,8 +7,6 @@ I am a second-year MS student in Computer Science at the <a href="https://www.ut
 
 <!-- Previously, I was a research assistant at Academia Sinica, advised by Prof. <a href="https://sites.google.com/site/yylinweb/publications/">Yen-Yu Lin</a>. I was also working intensively with Prof. <a href="http://vllab.ucmerced.edu/publication/">Ming-Hsuan Yang</a> and Dr. <a href="https://sites.google.com/site/yihsuantsai/research/">Yi-Hsuan Tsai</a>. -->
 
-<strong style="color:#e74d3c; font-weight:600">I am actively seeking Ph.D. positions starting in Fall 2023.</strong>
-
 <!-- ## News -->
 
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=9rh0w2QAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp></h2>
