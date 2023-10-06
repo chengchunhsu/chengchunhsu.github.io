@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a first-year Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a> working with Prof. <a href="https://www.joydeepb.com/publications.html">Joydeep Biswas</a>, Prof <a href="https://rpl.cs.utexas.edu/publications/">Yuke Zhu</a>, and Prof. <a href="https://robin-lab.cs.utexas.edu/publications/">Roberto Martín-Martín</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>. I am currently working on mobile manipulation.
+I am a first-year Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a> working with Prof. <a href="https://www.joydeepb.com/publications.html">Joydeep Biswas</a>, Prof. <a href="https://rpl.cs.utexas.edu/publications/">Yuke Zhu</a>, and Prof. <a href="https://robin-lab.cs.utexas.edu/publications/">Roberto Martín-Martín</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>. I am currently working on mobile manipulation.
 <!-- Previously, I was a research assistant at Academia Sinica, advised by Prof. <a href="https://sites.google.com/site/yylinweb/publications/">Yen-Yu Lin</a>. I was also working intensively with Prof. <a href="http://vllab.ucmerced.edu/publication/">Ming-Hsuan Yang</a> and Dr. <a href="https://sites.google.com/site/yihsuantsai/research/">Yi-Hsuan Tsai</a>. -->
 
 <!-- ## News -->
