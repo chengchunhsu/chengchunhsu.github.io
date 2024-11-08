@@ -3,8 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a> working with Prof. <a href="https://www.joydeepb.com/publications.html">Joydeep Biswas</a>, Prof. <a href="https://rpl.cs.utexas.edu/publications/">Yuke Zhu</a>, and Prof. <a href="https://robin-lab.cs.utexas.edu/publications/">Roberto Martín-Martín</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>. I am currently working on mobile manipulation.
-<!-- Previously, I was a research assistant at Academia Sinica, advised by Prof. <a href="https://sites.google.com/site/yylinweb/publications/">Yen-Yu Lin</a>. I was also working intensively with Prof. <a href="http://vllab.ucmerced.edu/publication/">Ming-Hsuan Yang</a> and Dr. <a href="https://sites.google.com/site/yihsuantsai/research/">Yi-Hsuan Tsai</a>. -->
+I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>.
 
 <!-- ## News -->
 
@@ -12,6 +11,53 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 
 <div class="publications">
 <ol class="bibliography">
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/data/teaser_tbd_spot.jpg" class="teaser img-fluid z-depth-1">
+  </div>
+  <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://nvlabs.github.io/object_centric_diffusion/">SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation</a></div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Bowen Wen, Jie Xu, Yashraj Narang, Xiaolong Wang, Yuke Zhu, Joydeep Biswas, Stan Birchfield</div>
+      <div class="periodical"><em>In submission.</em></div>
+      <!-- <div class="periodical"><em>International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2023.</em>
+      </div> -->
+    <div class="links">
+      <a href="https://nvlabs.github.io/object_centric_diffusion/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://arxiv.org/abs/2411.00965" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/data/teaser_icra24w_kinscene.jpeg" class="teaser img-fluid z-depth-1">
+  </div>
+  <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://chengchunhsu.github.io/KinScene/">KinScene: Model-Based Mobile Manipulation of Articulated Scenes</a></div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Ben Abbatematteo, Zhenyu Jiang, Yuke Zhu, Roberto Martín-Martín, Joydeep Biswas</div>
+      <div class="periodical"><em></em>
+      </div>
+      <!-- <div class="periodical"><em>A Future Roadmap for Sensorimotor Skill Learning Workshop</em>
+      </div> -->
+      <div class="periodical"><em>Mobile Manipulation Workshop at ICRA, 2024.</em>
+      </div>
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+    <div class="links">
+      <a href="https://chengchunhsu.github.io/KinScene/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://arxiv.org/abs/2409.16473" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
 
 <li>
 <div class="pub-row">
@@ -43,7 +89,7 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
     <div class="links">
       <a href="https://ut-austin-rpl.github.io/HouseDitto/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://arxiv.org/abs/2302.01295" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-      <!-- <a href="https://github.com/UT-Austin-RPL/Ditto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a> -->
+      <a href="https://github.com/UT-Austin-RPL/HouseDitto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
   </div>
 </div>
