@@ -48,7 +48,7 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       </div> -->
       <div class="periodical"><em>Mobile Manipulation Workshop at ICRA, 2024.</em>
       </div>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+      <strong><i style="color:#e74d3c">Spotlight Presentation</i></strong>
     <div class="links">
       <a href="https://chengchunhsu.github.io/KinScene/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://arxiv.org/abs/2409.16473" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
