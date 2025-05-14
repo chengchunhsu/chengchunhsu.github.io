@@ -16,7 +16,7 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_tbd_spot.jpg" class="teaser img-fluid z-depth-1">
+    <img src="./assets/data/teaser_icra25_spot.jpg" class="teaser img-fluid z-depth-1">
   </div>
   <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://nvlabs.github.io/object_centric_diffusion/">SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation</a></div>
