@@ -23,7 +23,6 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Bowen Wen, Jie Xu, Yashraj Narang, Xiaolong Wang, Yuke Zhu, Joydeep Biswas, Stan Birchfield</div>
       <div class="periodical"><em>International Conference on Robotics and Automation <strong>(ICRA)</strong>, 2025.</em>
       </div>
-      </div> -->
     <div class="links">
       <a href="https://nvlabs.github.io/object_centric_diffusion/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://arxiv.org/abs/2411.00965" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
