@@ -78,4 +78,4 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser { height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: contain; }
+.publications ol.bibliography li .teaser { height: auto; width: 640px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }

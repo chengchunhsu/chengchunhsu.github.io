@@ -16,7 +16,8 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_icra25_spot.jpg" class="teaser img-fluid z-depth-1">
+    <!-- <img src="./assets/data/teaser_icra25_spot.jpg" class="teaser img-fluid z-depth-1"> -->
+    <img src="./assets/data/teaser_icra25_spot.gif" class="teaser img-fluid z-depth-1">
   </div>
   <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://nvlabs.github.io/object_centric_diffusion/">SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation</a></div>
@@ -28,6 +29,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://arxiv.org/abs/2411.00965" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       <a href="https://github.com/NVlabs/object_centric_diffusion/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+    <br>
+    We enable robots to learn everyday tasks from human video demonstrations by usinbg object-centric representation. By predicting future object pose trajectories, SPOT achieves strong generalization capabilities with only eight human video demonstrations.
+    <br>
   </div>
 </div>
 </li>
@@ -37,7 +41,8 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_icra24w_kinscene.jpeg" class="teaser img-fluid z-depth-1">
+    <!-- <img src="./assets/data/teaser_icra24w_kinscene.jpeg" class="teaser img-fluid z-depth-1"> -->
+    <img src="./assets/data/teaser_icra24w_kinscene.gif" class="teaser img-fluid z-depth-1">
   </div>
   <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://chengchunhsu.github.io/KinScene/">KinScene: Model-Based Mobile Manipulation of Articulated Scenes</a></div>
@@ -53,6 +58,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://chengchunhsu.github.io/KinScene/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://arxiv.org/abs/2409.16473" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
     </div>
+    <br>
+    We enable mobile manipulators to perform long-horizon tasks by autonomously exploring and building scene-level articulation models of articulated objects. It maps the scene, infers object properties, and plans sequential interactions for accurate real-world manipulation.
+    <br>
   </div>
 </div>
 </li>
@@ -62,25 +70,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_icra23_dittohouse.jpg" class="teaser img-fluid z-depth-1">
+    <!-- <img src="./assets/data/teaser_icra23_dittohouse.jpg" class="teaser img-fluid z-depth-1"> -->
+    <img src="./assets/data/teaser_icra23_dittohouse.gif" class="teaser img-fluid z-depth-1">
   </div>
-
-  <!-- <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <video width=175px muted autoplay loop>
-      <source src="./assets/data/teaser_cvpr22_ditto.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div> -->
-
-  <!-- <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <div class="embed-responsive">
-      <video width=175px outline:none muted autoplay loop>
-        <source src="./assets/data/teaser_cvpr22_ditto.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div> -->
-
   <div id="hsu2022ditto" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://ut-austin-rpl.github.io/HouseDitto/">Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</a></div>
       <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Zhenyu Jiang, Yuke Zhu</div>
@@ -91,6 +83,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://arxiv.org/abs/2302.01295" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       <a href="https://github.com/UT-Austin-RPL/HouseDitto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+    <br>
+    We develop an interactive perception approach for robots to build indoor scene articulation models by efficiently discovering and characterizing articulated objects through coupled affordance prediction and articulation inference.
+    <br>
   </div>
 </div>
 </li>
@@ -100,7 +95,8 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_cvpr22_ditto.jpg" class="teaser img-fluid z-depth-1">
+    <!-- <img src="./assets/data/teaser_cvpr22_ditto.jpg" class="teaser img-fluid z-depth-1"> -->
+    <img src="./assets/data/teaser_cvpr22_ditto.gif" class="teaser img-fluid z-depth-1">
   </div>
 
   <!-- <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -130,6 +126,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://arxiv.org/abs/2202.08227" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       <a href="https://github.com/UT-Austin-RPL/Ditto" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+    <br>
+    We develop an approach that builds digital twins of articulated objects by learning their articulation models and 3D geometry from visual observations before and after interaction.
+    <br>
   </div>
 </div>
 </li>
@@ -156,6 +155,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://arxiv.org/abs/2008.08574" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       <a href="https://github.com/chengchunhsu/EveryPixelMatters" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+    <br>
+    We propose a domain adaptation framework for object detection that uses pixel-wise objectness and centerness to align features, focusing on foreground pixels for better cross-domain adaptation.
+    <br>
   </div>
 </div>
 </li>
@@ -176,6 +178,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
       <a href="https://papers.nips.cc/paper/2019/file/e6e713296627dff6475085cc6a224464-Paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       <a href="https://github.com/chengchunhsu/WSIS_BBTP/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
+    <br>
+    We propose a weakly supervised instance segmentation method that leverages Multiple Instance Learning (MIL) to address ambiguous foreground separation from bounding box annotations.
+    <br>
   </div>
 </div>
 </li>
@@ -196,6 +201,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
     <div class="links">
       <a href="./assets/data/pub_mm18_fashion.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
     </div>
+    <br>
+    We propose to learn clothing style and body shape compatibility from social big data, offering personalized outfit recommendations by factoring in a user's body shape.
+    <br>
   </div>
 </div>
 </li>
@@ -223,6 +231,9 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
     <div class="links">
       <a href="./assets/data/pub_techreport19_ccgr.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
     </div>
+    <br>
+    We propose a weakly supervised instance segmentation method using image-level labels, leveraging MIL, semantic segmentation, and a novel refinement module.
+    <br>
   </div>
 </div>
 </li>
