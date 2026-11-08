@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>. My research lies at the intersection of <i>robotics</i> and <i>computer vision</i>.
+I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.edu/">University of Texas at Austin</a>. I am advised by Prof. <a href="https://www.cs.utexas.edu/~pstone/">Peter Stone</a>. My research focuses on learning robot manipulation from scalable data sources such as human videos. I have also interned at NVIDIA Research, working with <a href="https://wenbowen123.github.io/">Bowen Wen</a> and <a href="https://sbirchfield.github.io/">Stan Birchfield</a>.
 
 <!-- ## News -->
 
@@ -12,6 +12,49 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <div class="publications">
 <ol class="bibliography">
 
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="./assets/data/teaser_corl26_ela.png" class="teaser img-fluid z-depth-1">
+  </div>
+  <div id="hsu2026ela" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://end2end-latent-action.github.io/">ELA: End-to-End Latent Action Policy Learning from Video Demonstrations</a></div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Peter Stone</div>
+      <div class="periodical"><em>Conference on Robot Learning <strong>(CoRL)</strong>, 2026.</em>
+      </div>
+    <div class="links">
+      <a href="https://end2end-latent-action.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://arxiv.org/abs/2611.05571" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+    </div>
+    <br>
+    ELA learns robot policies from abundant action-free video plus only a handful of action-labeled demonstrations, by learning latent actions and the policy end-to-end.
+    <br>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <!-- TODO: replace with Video-π teaser -->
+    <img src="./assets/data/teaser_corl26_ela.png" class="teaser img-fluid z-depth-1">
+  </div>
+  <div id="hsu2026videopi" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+      <div class="title">Video-&pi;: Learning a Video-Conditioned Policy from Unaligned Human and Robot Data</div>
+      <div class="author">Anonymous Authors</div>
+      <div class="periodical"><em>In submission.</em>
+      </div>
+    <br>
+    We learn a video-conditioned policy that lets robots perform tasks shown in human videos, trained from human and robot data that are not paired or aligned.
+    <br>
+  </div>
+</div>
+</li>
+
+<br>
 
 <li>
 <div class="pub-row">
@@ -133,113 +176,12 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 </div>
 </li>
 
-<br>
-
-<li>
-<div class="pub-row">
-  <!-- <div class="col-sm-3 center-block" style="position: relative;padding-right: 15px;padding-left: 15px;"> -->
-  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_eccv20_epm.jpg" class="teaser img-fluid z-depth-1">
-  </div>
-  <!-- <td style="padding:2.5%;width:30%;vertical-align:middle;min-width:120px">
-  <img src="./assets/data/teaser_eccv20_epm.jpg" alt style="width:auto; height:auto; max-width:30%;">
-  <!-- <abbr class="badge">ECCV</abbr> -->
-  <!-- </td> -->
-  <div id="hsu2020every" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://chengchunhsu.github.io/EveryPixelMatters/">Every Pixel Matters: Center-aware Feature Alignment for Domain Adaptive Object Detector</a></div>
-      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Yi-Hsuan Tsai, Yen-Yu Lin, and Ming-Hsuan Yang</div>
-      <div class="periodical"><em>European Conference on Computer Vision <strong>(ECCV)</strong>, 2020.</em>
-      </div>
-    <div class="links">
-      <a href="https://chengchunhsu.github.io/EveryPixelMatters/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="https://arxiv.org/abs/2008.08574" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-      <a href="https://github.com/chengchunhsu/EveryPixelMatters" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-    <br>
-    We propose a domain adaptation framework for object detection that uses pixel-wise objectness and centerness to align features, focusing on foreground pixels for better cross-domain adaptation.
-    <br>
-  </div>
-</div>
-</li>
-
-<br>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_neurips19_bbtp.jpg" class="teaser img-fluid z-depth-1">
-  </div>
-  <div id="hsu2019weakly" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://papers.nips.cc/paper/2019/file/e6e713296627dff6475085cc6a224464-Paper.pdf">Weakly Supervised Instance Segmentation using the Bounding Box Tightness Prior</a></div>
-      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>*, Kuang-Jui Hsu*, Chung-Chi Tsai, Yen-Yu Lin, and Yung-Yu Chuang</div>
-      <div class="periodical"><em>Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2019.</em>
-      </div>
-    <div class="links">
-      <a href="https://papers.nips.cc/paper/2019/file/e6e713296627dff6475085cc6a224464-Paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-      <a href="https://github.com/chengchunhsu/WSIS_BBTP/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-    <br>
-    We propose a weakly supervised instance segmentation method that leverages Multiple Instance Learning (MIL) to address ambiguous foreground separation from bounding box annotations.
-    <br>
-  </div>
-</div>
-</li>
-
-<br>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_mm18_fashion.jpg" class="teaser img-fluid z-depth-1">
-  </div>
-  <div id="hidayati2018fashion" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="./assets/data/pub_mm18_fashion.pdf">What Dress Fits Me Best? Fashion Recommendation on the Clothing Style for Personal Body Shape</a></div>
-      <div class="author">Shintami Chusnul Hidayati, <u><strong>Cheng-Chun Hsu</strong></u>, Yu-Ting Chang, Kai-Lung Hua, Jianlong Fu, and Wen-Huang Cheng</div>
-      <div class="periodical"><em>ACM International Conference on Multimedia <strong>(MM)</strong>, 2018.</em>
-      </div>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
-    <div class="links">
-      <a href="./assets/data/pub_mm18_fashion.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-    </div>
-    <br>
-    We propose to learn clothing style and body shape compatibility from social big data, offering personalized outfit recommendations by factoring in a user's body shape.
-    <br>
-  </div>
-</div>
-</li>
-
 </ol>
 </div>
 
 
 
-<h2 id="publications" style="margin: 2px 0px -15px;">Technical Reports</h2>
 
-<div class="publications">
-<ol class="bibliography">
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="./assets/data/teaser_techreport19_ccgr.jpg" class="teaser img-fluid z-depth-1">
-  </div>
-  <div id="hsu2019center" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="./assets/data/pub_techreport19_ccgr.pdf">Center-context-gap Refinement for Weakly Supervised Instance Segmentation</a></div>
-      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>*, Kuang-Jui Hsu*, Chiachen Ho, Yen-Yu Lin, and Yung-Yu Chuang</div>
-      <div class="periodical"><em>Technical report, 2019.</em>
-      </div>
-    <div class="links">
-      <a href="./assets/data/pub_techreport19_ccgr.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
-    </div>
-    <br>
-    We propose a weakly supervised instance segmentation method using image-level labels, leveraging MIL, semantic segmentation, and a novel refinement module.
-    <br>
-  </div>
-</div>
-</li>
-
-</ol>
-</div>
 
 
 
