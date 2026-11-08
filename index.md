@@ -39,8 +39,7 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
 <li>
 <div class="pub-row">
   <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <!-- TODO: replace with Video-π teaser -->
-    <img src="./assets/data/teaser_corl26_ela.png" class="teaser img-fluid z-depth-1">
+    <img src="./assets/data/teaser_videopi.png" class="teaser img-fluid z-depth-1">
   </div>
   <div id="hsu2026videopi" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title">Video-&pi;: Learning a Video-Conditioned Policy from Unaligned Human and Robot Data</div>
