@@ -43,7 +43,7 @@ I am a Ph.D. student in Computer Science at the <a href="https://www.cs.utexas.e
   </div>
   <div id="hsu2026videopi" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title">Video-&pi;: Learning a Video-Conditioned Policy from Unaligned Human and Robot Data</div>
-      <div class="author">Anonymous Authors</div>
+      <div class="author"><u><strong>Cheng-Chun Hsu</strong></u>, Anonymous Authors</div>
       <div class="periodical"><em>In submission.</em>
       </div>
     <br>
